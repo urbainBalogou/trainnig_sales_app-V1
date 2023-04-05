@@ -1,0 +1,26 @@
+body{
+    background:url('images/Actions-de-formation.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color:white;
+  margin:0px;
+  font-family:Arial;
+}
+.centered{
+     position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a{
+    display:block;
+    text-align:center;
+    color:red;
+    font-size:18px;
+}
+.num{
+    font-weight:bold;
+    color:red;
+}

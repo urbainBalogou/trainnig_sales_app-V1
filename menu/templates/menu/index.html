@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Liste des formations</title>
     <link rel="stylesheet" href="{%static 'menu/style.css'%}">
 </head>
@@ -13,7 +14,7 @@
     <div class="menu_list">
         {% for formation in formations %}
         <div class="menu_list_item">
-            <span class="menu_list_title">{{formation.nom}}<span>
+            <span class="menu_list_title">{{formation.nom|upper}}<span>
             <span class="menu_list_prix">{{formation.prix}}F<span>
 
             <span class="menu_list_description">{{formation.description}}<span>

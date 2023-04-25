@@ -1,5 +1,19 @@
+
+.paragraphe{
+    display:flex;
+    justify-direction:row;
+    justify-content:center;
+    font-family:"Poppins",sans serif;
+    justify-direction:row;
+    font-weight:bold;
+    color: green;
+}
+span{
+    display:inline;
+    text-decoration:none;
+}
 body{
-    background:url('images/Actions-de-formation.jpg') no-repeat center center fixed;
+    background:url('main/images/background.jpg') no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
